@@ -104,7 +104,7 @@ pushed.
 */
 int keypadRead() {
     int row, col;
-    KEYPAD_PORT |= 0x0F;
+    KEYPAD_PORT |= 0x0F;                    
     for (col = 0;  col < 3; col++) {
         KEYPAD_DDR &= ~(0x7F);                      // the 7-th bit of port A is not used in keypad
         KEYPAD_DDR |= (0x40 >> col);                // we shift to right each time to check which column
