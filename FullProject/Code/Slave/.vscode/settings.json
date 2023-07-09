@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "atmega",
+        "DDRA",
+        "PINA",
+        "PORTA"
+    ],
+    "files.associations": {
+        "lcd.h": "c"
+    }
+}
